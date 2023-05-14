@@ -17,6 +17,8 @@ En la cuarta pagina del sitio denominada Contacto, se retira la imagen heroe par
 FAQ:
 En la quinta y ultima pagina del sitio, llamada FAQ (Frequently Asked Questions), tampoco se hace uso de la imagen heroe para dar lugar a un contenedor de bienvenida y que incita al usuario a leer las preguntas, bajo el mismo se encuentra un accordion desarrollado con Bootstrap el cual contiene preguntas y respuestas respecto a la organizacion
 
+PD: Removi las animaciones en mobile dado que me parecen muy invasivas e innecesarias.
+
 # 𝙏𝙚𝙘𝙣𝙤𝙡𝙤𝙜𝙞𝙖𝙨 𝙐𝙩𝙞𝙡𝙞𝙯𝙖𝙙𝙖𝙨
 HTML5; CSS3
 
