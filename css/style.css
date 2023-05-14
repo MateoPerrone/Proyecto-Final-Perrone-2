@@ -210,4 +210,38 @@ footer .container--footer .footer--links a.footer--link {
   font-family: "roboto slab";
 }
 
+@keyframes SlideInBottom {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@media (width > 1280px) {
+  .card {
+    animation-name: SlideInBottom;
+    animation-duration: 3s;
+  }
+  .card:hover {
+    transform: scale(1.03);
+  }
+}
+@media (width > 1280px) {
+  .card--button:hover {
+    box-shadow: 4px 4px 15px black;
+    cursor: pointer;
+  }
+}
+@media (width > 1280px) {
+  .button--form {
+    cursor: pointer;
+    background-color: rgb(133, 106, 0);
+    box-shadow: 4px 4px 15px black;
+    color: white;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+@keyframes SlideInBottom{
+    from{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+//begins animacion card//
+@include media (desktop){
+    .card{
+        animation-name: SlideInBottom;
+        animation-duration: 3s;
+    }
+    .card:hover{
+        transform: scale(1.03);
+    }
+}
+//ends animacion card//
+
+//begins button hovers//
+@include media (desktop){
+    .card--button:hover{
+        box-shadow: 4px 4px 15px black;
+        cursor: pointer;
+    }
+}
+//ends button hovers//
+
+//begins button hovers pg-contacto//
+@include media (desktop){
+    .button--form{
+        cursor: pointer;
+        background-color: rgb(133, 106, 0);
+        box-shadow: 4px 4px 15px black;
+        color: white;
+    }
+}
+//ends button hovers pg-contacto//
