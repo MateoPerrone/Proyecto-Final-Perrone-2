@@ -1,0 +1,19 @@
+//begins cartel//
+.cartel--recetas{
+    text-align: center;
+    color: map-get($map: $paleta, $key:'color5' );
+    font-family: $fuente1;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+//ends cartel//
+
+//begins cards//
+.recetas--card{
+    display: flex;
+    background-color: map-get($map: $paleta, $key:'color1' );
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+//ends cards//

@@ -103,6 +103,22 @@ footer .container--footer .footer--links a.footer--link {
   padding: 5px;
 }
 
+.cartel--recetas {
+  text-align: center;
+  color: rgb(208, 153, 23);
+  font-family: "roboto slab";
+  text-decoration: underline;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.recetas--card {
+  display: flex;
+  background-color: rgb(230, 230, 230);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .container--nosotros, .container--mensaje {
   background-color: rgb(60, 60, 60);
   text-align: center;
