@@ -166,4 +166,32 @@ footer .container--footer .footer--links a.footer--link {
   border-style: solid rgb(150, 111, 19);
 }
 
+.container--cartel {
+  background-color: rgb(230, 230, 230);
+  padding: 30px 20px;
+  text-align: center;
+}
+.container--cartel h2 {
+  color: rgb(208, 153, 23);
+  font-family: "roboto slab";
+  font-size: 2.5em;
+  padding-bottom: 20px;
+}
+.container--cartel h3 {
+  font-family: "roboto slab";
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+.container--cartel h4 {
+  font-family: "roboto slab";
+  font-size: 1.4em;
+}
+
+.container--acordeon {
+  background-color: rgb(211, 211, 211);
+  padding: 30px 18px;
+  height: 500px;
+  font-family: "roboto slab";
+}
+
 /*# sourceMappingURL=style.css.map */
