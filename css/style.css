@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab:wght@300;400;500&display=swap");
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  background-color: rgb(60, 60, 60);
+}
+
+nav {
+  font-family: "roboto slab";
+}
+nav nav .navbar-brand {
+  font-size: 1.8em;
+}
+nav ul li a.nav-link {
+  font-size: 1em;
+  color: black;
+}
+
+main {
+  background-color: rgb(60, 60, 60);
+}
+
+.hero-img {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../img/banner-nuevo\ \(1\).webp) no-repeat center;
+  background-size: cover;
+}
+.hero-img .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hero-img .container h2 {
+  color: rgb(230, 230, 230);
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: "roboto slab";
+}
+.hero-img .container button {
+  padding: 8px 20px;
+  font-family: "roboto slab";
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+  background-color: rgb(210, 171, 16);
+  border-radius: 8px;
+  border: 2px solid rgb(210, 171, 16);
+  box-shadow: 4px 4px 15px black;
+}
+
+footer {
+  font-family: "roboto slab";
+  background-color: rgb(200, 200, 200);
+  width: 100%;
+  margin-top: auto;
+}
+footer .container--footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container--footer .footer--copyright .footer--p {
+  color: rgb(105, 105, 105);
+}
+footer .container--footer .footer--links {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+footer .container--footer .footer--links a.footer--link {
+  text-decoration: none;
+  color: black;
+}
+
+.card {
+  width: 100%;
+}
+.card .card--body {
+  padding: 20px;
+}
+.card .card--body .card--heading {
+  font-family: "roboto slab";
+  font-size: 2.2em;
+  color: rgb(208, 153, 23);
+}
+.card .card--body .card--texto {
+  font-family: "roboto condensed";
+  font-size: 1.6em;
+}
+.card .card--body .card--button {
+  font-family: "roboto slab";
+  font-size: 1.5em;
+  background-color: rgb(150, 111, 19);
+  width: 100%;
+  color: white;
+  border-radius: 20px;
+  border-style: none;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */
