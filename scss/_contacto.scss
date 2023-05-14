@@ -1,0 +1,27 @@
+//begins mensaje//
+.container--mensaje{
+    @extend .container--nosotros;
+    
+    .container--texto{
+        font-size: 1.6em;
+    }
+}   
+//ends mensaje//
+
+//begins form//
+.datos{
+    background-color: map-get($map: $paleta, $key:'color1' );
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: $fuente1;
+
+    .btn{
+        background-color: map-get($map: $paleta, $key:'color5' );
+        padding: 15px 30px;
+        border-radius: 10px;
+        border-style: solid map-get($map: $paleta, $key:'color6' );
+    }
+}
+//ends form//

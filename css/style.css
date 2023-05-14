@@ -103,11 +103,11 @@ footer .container--footer .footer--links a.footer--link {
   padding: 5px;
 }
 
-.container--nosotros {
+.container--nosotros, .container--mensaje {
   background-color: rgb(60, 60, 60);
   text-align: center;
 }
-.container--nosotros h2 {
+.container--nosotros h2, .container--mensaje h2 {
   font-family: "roboto slab";
   color: rgb(208, 153, 23);
   font-size: 2.2em;
@@ -116,7 +116,7 @@ footer .container--footer .footer--links a.footer--link {
   padding-left: 50px;
   padding-right: 20px;
 }
-.container--nosotros p {
+.container--nosotros p, .container--mensaje p {
   font-family: "roboto condensed";
   font-size: 1.4em;
   color: rgb(230, 230, 230);
@@ -145,6 +145,25 @@ footer .container--footer .footer--links a.footer--link {
   font-weight: 900;
   font-size: 1.6em;
   padding-top: 30px;
+}
+
+.container--mensaje .container--texto {
+  font-size: 1.6em;
+}
+
+.datos {
+  background-color: rgb(230, 230, 230);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: "roboto slab";
+}
+.datos .btn {
+  background-color: rgb(208, 153, 23);
+  padding: 15px 30px;
+  border-radius: 10px;
+  border-style: solid rgb(150, 111, 19);
 }
 
 /*# sourceMappingURL=style.css.map */

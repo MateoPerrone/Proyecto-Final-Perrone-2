@@ -56,42 +56,35 @@
                 <p class="mensaje--texto">Consultanos para sacarte cualquier duda que tengas!</p>
                 <p class="mensaje--texto">Nuestro equipo se comunicara con vos a la brevedad </p>
                 <hr>
-                <p class="mensaje--texto_2"> (Usualmente se tarda entre 24 - 72 hrs)</p>
+                <p class="mensaje--texto-abajo"> (Usualmente se tarda entre 24 - 72 hrs)</p>
             </div>
         </section>
         <!--ends mensaje-->
 
         <!--begins form-->
-        <form class="datos">
-            <div class="container-fluid container--form">
+        <section id="datos">
+            <form class="datos">
                 <div class="mb-3">
-                  <label for="nombre" class="form--label">Nombre y Apellido</label>
-                  <input type="text" class="form--input" placeholder="Alejandro Magno">
+                  <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-
                 <div class="mb-3">
-                    <label for="email" class="form--label">Correo Electronico</label>
-                    <input type="email" class="form--input" placeholder="lionelmessi46@gmail.com"> 
+                    <label for="exampleInputEmail1" class="form-label">Telefono</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Correo Electronico</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
                 <div class="mb-3">
-                    <label for="telefono" class="form--label">Numero de Telefono</label>
-                    <input type="number" class="form--input" placeholder="1130495887">
+                  <label for="exampleInputPassword1" class="form-label">Sugerencia</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-
-                <div class="mb-3">
-                    <label for="mensaje" class="form--label">Mensaje</label>
-                    <textarea name="mensaje" id="" cols="15" rows="" class="form--textarea"></textarea>
-                </div>
-
-                <button class="form--button">
-                    Enviar
-                </button>
-                <button class="form--button">
-                    Cancelar
-                </button>
-            </div>
-        </form>
+                <button type="submit" class="btn button--form">Enviar</button>
+                <button type="submit" class="btn button--form">Cancelar</button>
+    
+            </form>
+        </section>
         <!--ends form-->
    </main>
    <!--ends main-->
