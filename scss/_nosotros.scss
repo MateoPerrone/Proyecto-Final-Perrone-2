@@ -1,0 +1,54 @@
+//begins nosotros//
+.container--nosotros{
+    background-color: map-get($map: $paleta, $key:'color3' );
+    text-align: center;
+
+    h2{
+       font-family: 'roboto slab';
+       color: map-get($map: $paleta, $key:'color5' ); 
+       font-size: 2.2em;
+       padding-top: 20px;
+       padding-bottom: 15px;
+       padding-left: 50px;
+       padding-right: 20px;
+    }
+    
+    p{
+        font-family: 'roboto condensed';
+        font-size: 1.4em;
+        color: map-get($map: $paleta, $key:'color1' );
+        padding-left: 10px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+//ends nosotros//
+
+//begins beneficios//
+.container--beneficios{
+    background-color: map-get($map: $paleta, $key:'color1' );
+
+    .beneficios--body{
+        padding-top: 50px;
+        padding-left: 15px;
+        padding-bottom: 50px;
+
+        .heading--beneficios{
+            font-family: 'roboto slab';
+            font-size: 2.2em;
+        }
+    }
+
+    ul{
+        list-style: none;
+
+        .li--beneficios{
+            font-family: 'roboto condensed';
+            font-weight: 900;
+            font-size: 1.6em;
+            padding-top: 30px;
+
+        }
+    }
+} 
+//ends beneficios//

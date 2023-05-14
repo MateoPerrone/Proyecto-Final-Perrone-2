@@ -103,4 +103,48 @@ footer .container--footer .footer--links a.footer--link {
   padding: 5px;
 }
 
+.container--nosotros {
+  background-color: rgb(60, 60, 60);
+  text-align: center;
+}
+.container--nosotros h2 {
+  font-family: "roboto slab";
+  color: rgb(208, 153, 23);
+  font-size: 2.2em;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 50px;
+  padding-right: 20px;
+}
+.container--nosotros p {
+  font-family: "roboto condensed";
+  font-size: 1.4em;
+  color: rgb(230, 230, 230);
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.container--beneficios {
+  background-color: rgb(230, 230, 230);
+}
+.container--beneficios .beneficios--body {
+  padding-top: 50px;
+  padding-left: 15px;
+  padding-bottom: 50px;
+}
+.container--beneficios .beneficios--body .heading--beneficios {
+  font-family: "roboto slab";
+  font-size: 2.2em;
+}
+.container--beneficios ul {
+  list-style: none;
+}
+.container--beneficios ul .li--beneficios {
+  font-family: "roboto condensed";
+  font-weight: 900;
+  font-size: 1.6em;
+  padding-top: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
